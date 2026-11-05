@@ -5,27 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DAW 6-7</title>
     <!--Titulo de la pagina-->
+    <link rel="preload" href="css/normalize.css" as="style" />
+    <link rel="stylesheet" href="css/normalize.css" />
+
     <link rel="preload" href="css/style.css" as="style"> <!--Enlace al archivo de estilos-->
     <link rel="stylesheet" href="css/style.css"> <!--Enlace al archivo de estilos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
 </head><!-- va toda la informacion al navegador aqui se pone el css-->
 
 <body><!--Cuerpo de la pagina-->
-   
     <header>
         <h1 class="titulo">Desarrollo de aplicaciones web: WebSite</h1>
     </header>
    
-    <nav>
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
         <a href="index.html">Inicio</a>
         <a href="unidades.html">Unidades</a>
-        <a href="#">Calificaciones</a><!--Simula Enlace-->
-    </nav>
+        <a href="#">Calificaciones</a>
+        <!--Simula Enlace-->
+        </nav>
+    </div>
 
     <img src="images/Batman.png">
 
     <section>
         <p>Dirigido por: Gonzalo Córdova</p><!--Etiqueta de parrafo-->
-
+    <!--
+        version: "2.31"
+        unicode: "fc4e"
+    -->
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width="32"
@@ -48,6 +62,7 @@
 
         <p>Guayaquil - Ecuador</p>
         <a href="#">Contactar</a>
+        
     </section>
     
     <main>
